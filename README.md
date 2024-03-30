@@ -8,9 +8,9 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/zaynapsabry/node-js-dockerization.git
-    ```
+  ```bash
+  git clone https://github.com/zaynapsabry/node-js-dockerization.git
+  ```
 2. **Run this command to install all dependencies:**
    
   ```bash
