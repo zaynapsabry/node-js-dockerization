@@ -20,23 +20,23 @@ To run this project locally, follow these steps:
 3. **To Build image from Dockerfile run:**
  
   ```bash
-  run docker build -t <node_image_name> command
+  docker build -t <node_image_name> .
   ```
 
 4. **To create a bridge network run:**
 
   ```bash
-  docker network create <network_name> command
+  docker network create <network_name> 
   ```
 
 5. **Run a node container:**
    
   ```bash
-  run docker run --name <container_name> --network <network_name> <node_image_name>
+  docker run --name <container_name> --network <network_name> <node_image_name>
   ```
 
 6. **Run a mongo container:**
    
   ```bash
-  run docker run --name <container_name> --network <network_name> mongo 
+  docker run --name <container_name> --network <network_name> mongo 
   ```
